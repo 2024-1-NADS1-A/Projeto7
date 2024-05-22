@@ -4,15 +4,15 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+# PetConnect
 
-## Nome do Grupo
+## Cruelos
 
 ## Integrantes: <a href="https://www.linkedin.com/in/felipeosantosojo/">Felipe Oluwaseun</a>, <a href="https://www.linkedin.com/in/luiz-felipe-galdino-de-carvalho-45765316b/">Luiz Felipe Carvalho</a>, <a href="https://www.linkedin.com/in/murilo-de-alencar-lopes-55532524a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Murilo de Alencar</a>, <a href="https://www.linkedin.com/in/matheus-santoro-34b7a7186/">Matheus Santoro</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander</a>, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Valente</a>
 
-## Descrição
+## Descrição: A proposta deste estudo se resume em desenvolver um sistema automatizado de alimentação para animais de estimação, visando auxiliar os proprietários de pets para fornecerem uma alimentação regular nos períodos corretos no dia a dia.
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
@@ -20,12 +20,11 @@
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+O projeto é um alimentador automatizado de ração que utiliza o ESP8266 como plataforma. Através do Telegram, os usuários podem iniciar a aplicação com o comando "start" e, em seguida, utilizar "/liberar" para fornecer ração para o animal de estimação. Isso proporciona aos donos uma maneira conveniente de alimentar seus animais de estimação remotamente, garantindo que recebam comida mesmo quando estão longe de casa.
 <br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
+O projeto ajuda os usuários a cuidarem de seus animais de estimação de forma mais conveniente e eficiente, permitindo que alimentem seus pets remotamente através do Telegram. Isso é especialmente útil para pessoas que passam longos períodos fora de casa ou têm horários irregulares.
 <br><br>
-May the force be with you!
-<br><br>
+
 
 ## 🛠 Estrutura de pastas
 
@@ -62,57 +61,50 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>Android:</b>
 
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
+Faça o Download do telegram e utilize esse convite para acessar o Bot: https://t.me/cnpet7_bot, entrando no Bot utilize o /start para se conectar ao ESP8266 e utilize o comando /liberar para começar a alimentar seu pet.
 
-```sh
-Coloque código do prompt de comnando se for necessário
-```
+<b>IOS:</b>
 
-<b>Windows:</b>
+Faça o Download do telegram e utilize esse convite para acessar o Bot: https://t.me/cnpet7_bot, entrando no Bot utilize o /start para se conectar ao ESP8266 e utilize o comando /liberar para começar a alimentar seu pet.
 
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>HTML:</b>
-
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
 ## 💻 Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
 
-Para abrir este projeto você necessita das seguintes ferramentas:
 
 -<a href="https://godotengine.org/download">GODOT</a>
 
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
+
 
 ## 🗃 Histórico de lançamentos
 
 A cada atualização os detalhes devem ser lançados aqui.
 
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
-    * Trabalho em andamento
+* 0.5.1 - 22/05/2024
+    * Ultimos Ajustes e testes
+* 0.5.0 - 17/05/2024
+    * Adaptação necessárias no projeto para finalização
+* 0.4.0 - 11/04/2024
+    * Atualizações no código, adaptando para ESP8266
+* 0.3.1 - 02/05/2024
+    * Ajustes de lógica
+    * Compra de tampa para o Cano
+* 0.3.0 - 29/04/2024
+    * Planejamento e verificação de componentes necessários
+* 0.2.1 - 25/04/2024
+    * Inicio da estruturação do projeto
+    * Montagem dos dispositivos
+* 0.2.0 - 15/04/2024
+    * Recebimento das peças 
+    * Primeiros Testes
+* 0.1.1 - 03/04/2024
+    * Inclusão de bibliotecas ao código
+    * correção de dispositivos necessários para inicialização do protótipo 
+* 0.1.0 - 29/03/2024
+    * Estruturação do Projeto
+    * Orçamento
+* 0.0.1 - 18/03/2024
+    * Idealização do Projeto
 
 ## 📋 Licença/License
 

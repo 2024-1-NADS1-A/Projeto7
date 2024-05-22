@@ -8,9 +8,9 @@
 
 ## Nome do Grupo
 
-## Integrantes: <a href="https://www.linkedin.com/in/felipeosantosojo/">Felipe O</a>, <a href="https://www.linkedin.com/in/luiz-felipe-galdino-de-carvalho-45765316b/">Luiz Felipe</a>, <a href="https://www.linkedin.com/in/murilo-de-alencar-lopes-55532524a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Murilo de Alencar</a>, <a href="https://www.linkedin.com/in/matheus-santoro-34b7a7186/">Matheus Santoro</a>
+## Integrantes: <a href="https://www.linkedin.com/in/felipeosantosojo/">Felipe Oluwaseun</a>, <a href="https://www.linkedin.com/in/luiz-felipe-galdino-de-carvalho-45765316b/">Luiz Felipe</a>, <a href="https://www.linkedin.com/in/murilo-de-alencar-lopes-55532524a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Murilo de Alencar</a>, <a href="https://www.linkedin.com/in/matheus-santoro-34b7a7186/">Matheus Santoro</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander</a>, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Me. Adriano Valente</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander</a>, <a href="https://www.linkedin.com/in/adriano-valente-534576135/">Adriano Valente</a>
 
 ## Descrição
 

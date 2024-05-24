@@ -28,7 +28,7 @@ O projeto ajuda os usuários a cuidarem de seus animais de estimação de forma 
 
 ## 🛠 Estrutura de pastas
 
--Raiz<br>
+|-Raiz<br>
 |<br>
 |-->documentos<br>
   &emsp;|-->antigos<br>
@@ -52,15 +52,6 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>src</b>: Pasta que contém o código fonte.
 
-## 🛠 Instalação
-
-<b>Android:</b>
-
-Faça o Download do telegram e utilize esse convite para acessar o Bot: https://t.me/cnpet7_bot, entrando no Bot utilize o /start para se conectar ao ESP8266 e utilize o comando /liberar para começar a alimentar seu pet.
-
-<b>IOS:</b>
-
-Faça o Download do telegram e utilize esse convite para acessar o Bot: https://t.me/cnpet7_bot, entrando no Bot utilize o /start para se conectar ao ESP8266 e utilize o comando /liberar para começar a alimentar seu pet.
 
 
 ## 💻 Configuração para Desenvolvimento

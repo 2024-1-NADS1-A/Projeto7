@@ -28,15 +28,16 @@ O projeto ajuda os usuários a cuidarem de seus animais de estimação de forma 
 
 ## 🛠 Estrutura de pastas
 
--Raiz|
-|-->documentos
-|-->antigos
-|ConnectPetForm 2
-|-->imagens
-|-->src
-|-->Backend
-|-->Frontend
-|readme.md
+-Raiz<br>
+|<br>
+|-->documentos<br>
+  &emsp;|-->antigos<br>
+  &emsp;|ConnectPetForm 2<br>
+|-->imagens<br>
+|-->src<br>
+  &emsp;|-->Backend<br>
+  &emsp;|-->Frontend<br>
+|readme.md<br>
 
 A pasta raiz contem dois arquivos que devem ser alterados:
 

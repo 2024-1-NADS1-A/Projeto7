@@ -16,7 +16,7 @@
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/2024-1-NADS1-A/Projeto7/main/imagens/image00004.jpeg" alt="NOME DO GRUPO" border="0"> Feito Por:
-<a href="https://www.linkedin.com/in/felipeosantosojo/">Felipe Oluwaseun</a>, <a href="https://www.linkedin.com/in/luiz-felipe-galdino-de-carvalho-45765316b/">Luiz Felipe Carvalho</a>, <a href="https://www.linkedin.com/in/murilo-de-alencar-lopes-55532524a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Murilo de Alencar</a>
+<a href="https://www.linkedin.com/in/felipeosantosojo/">Felipe Oluwaseun</a>, <a href="https://www.linkedin.com/in/luiz-felipe-galdino-de-carvalho-45765316b/">Luiz Felipe Carvalho</a>, <a href="https://www.linkedin.com/in/murilo-de-alencar-lopes-55532524a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Murilo de Alencar</a>, <a href="https://www.linkedin.com/in/matheus-santoro-34b7a7186/">Matheus Santoro</a>
 
 
 

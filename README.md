@@ -114,8 +114,7 @@ A cada atualização os detalhes devem ser lançados aqui.
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+1. https://www.manualdaeletronica.com.br/ponte-h-o-que-e-como-funciona/
+2. https://www.youtube.com/watch?v=HcdWtQP4j1U
+3. https://www.youtube.com/watch?v=szKZNcq5x4Y
+4. https://www.petz.com.br/blog/cachorros/alimentacao/quantas-vezes-um-cachorrodeve-comer-por-dia/

@@ -1,0 +1,110 @@
+//Adiciona as bibliotecas necessárias para o projeto
+#include <ESP8266WiFi.h>
+#include <WiFiClientSecure.h>
+#include <UniversalTelegramBot.h>   // Universal Telegram Bot Library written by Brian Lough: https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot
+#include <ArduinoJson.h>
+
+// Inserir o nome da rede e a senha para conectar o ESP8266 ao WIFI
+const char* ssid = "felipe102030";
+const char* password = "lipe2299";
+
+// Inicializa o bot no telegram
+#define BOTtoken "6999871599:AAE2XR-G1-GgV5wfBwdctaTx_RyrGjjB744"
+
+//ID do bot
+#define CHAT_ID "6070961699"
+
+#ifdef ESP8266
+  X509List cert(TELEGRAM_CERTIFICATE_ROOT);
+#endif
+
+WiFiClientSecure client;
+UniversalTelegramBot bot(BOTtoken, client);
+
+// Procura por novas mensagens a cada 1 segundo.
+int botRequestDelay = 1000;
+unsigned long lastTimeBotRan;
+
+//Define as entradas na placa ESP8266
+int motorPin = 4;
+int motorPin2 = 5;
+
+void setup() {
+  Serial.begin(115200);
+
+  #ifdef ESP8266
+    configTime(0, 0, "pool.ntp.org");      // Puxa o horario UTC via NTP
+    client.setTrustAnchors(&cert); // Adiciona o certificado da api.telegram.org
+  #endif
+  
+  //Entradas do motor e o tipo de saida
+  pinMode(motorPin, OUTPUT);
+  pinMode(motorPin2, OUTPUT);
+  
+  // Conecta ao Wi-Fi
+  WiFi.mode(WIFI_STA);
+  WiFi.begin(ssid, password);
+  
+}
+
+// Função para iniciar o BOT e definir a ação
+void handleNewMessages(int numNewMessages) {
+  Serial.println("handleNewMessages");
+  Serial.println(String(numNewMessages));
+
+  for (int i=0; i<numNewMessages; i++) {
+    // Chat id 
+    String chat_id = String(bot.messages[i].chat_id);
+    if (chat_id != CHAT_ID){
+      bot.sendMessage(chat_id, "Unauthorized user", "");
+      continue;
+    }
+    
+    // Print da mensagem recebida
+    String text = bot.messages[i].text;
+    Serial.println(text);
+
+    String from_name = bot.messages[i].from_name;
+    /*Comando inicial para iniciar o Bot e mostrar a lista de comandos*/
+    if (text == "/start") {
+      String welcome = "Bem-vindo, " + from_name + ".\n";
+      welcome += "Use o comando para liberar a ração.\n\n";
+      welcome += "/liberar \n";
+      bot.sendMessage(chat_id, welcome, "");
+    }
+    /*Enquanto o bot estiver ligado, cada vez que o usuário digitar o comando "/liberar"
+    o motor DC será acionado abrindo o recipiente de ração e fechando em seguida*/
+    if (text == "/liberar") {
+      bot.sendMessage(chat_id, "Comida liberada", "");
+      digitalWrite(motorPin, HIGH);
+      digitalWrite(motorPin2, LOW);
+      delay(4000);
+      digitalWrite(motorPin2, LOW);
+      digitalWrite(motorPin, LOW);
+      delay(100);
+      digitalWrite(motorPin, LOW);
+      digitalWrite(motorPin2, HIGH);
+      delay(4200);
+      digitalWrite(motorPin2, LOW);
+      digitalWrite(motorPin, LOW);
+      
+      
+      }
+    }
+  }
+
+
+
+
+void loop() {
+  if (millis() > lastTimeBotRan + botRequestDelay)  {
+    int numNewMessages = bot.getUpdates(bot.last_message_received + 1);
+
+    while(numNewMessages) {
+      Serial.println("got response");
+      handleNewMessages(numNewMessages);
+      numNewMessages = bot.getUpdates(bot.last_message_received + 1);
+    }
+    lastTimeBotRan = millis();
+  }
+}

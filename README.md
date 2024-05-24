@@ -36,7 +36,6 @@ O projeto ajuda os usuários a cuidarem de seus animais de estimação de forma 
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
 |readme.md<br>
 
 A pasta raiz contem dois arquivos que devem ser alterados:

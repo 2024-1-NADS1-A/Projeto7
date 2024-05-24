@@ -64,7 +64,7 @@ Há também 4 pastas que seguem da seguinte forma:
 
 •Jumpers Macho e Fêmea.
 
-## 🛠 Software
+## 💻 Software:
 
 •Arduino IDE
 

@@ -28,15 +28,14 @@ O projeto ajuda os usuários a cuidarem de seus animais de estimação de forma 
 
 ## 🛠 Estrutura de pastas
 
--Raiz
-|
+-Raiz|
 |-->documentos
- |-->antigos
- |ConnectPetForm 2
+|-->antigos
+|ConnectPetForm 2
 |-->imagens
 |-->src
- |-->Backend
- |-->Frontend
+|-->Backend
+|-->Frontend
 |readme.md
 
 A pasta raiz contem dois arquivos que devem ser alterados:
@@ -59,7 +58,7 @@ Há também 4 pastas que seguem da seguinte forma:
 
 
 
--<a href="https://godotengine.org/download">GODOT</a>
+-<a href="https://www.arduino.cc>Arduino IDE</a>
 
 
 

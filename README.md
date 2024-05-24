@@ -16,7 +16,7 @@
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/2024-1-NADS1-A/Projeto7/main/imagens/image00004.jpeg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">PetConnect</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> 
+<a href="http://www.nyphotographic.com/">PetConnect</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> 
 </p>
 
 

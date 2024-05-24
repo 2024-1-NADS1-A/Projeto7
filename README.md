@@ -15,9 +15,9 @@
 ## Descrição: A proposta deste estudo se resume em desenvolver um sistema automatizado de alimentação para animais de estimação, visando auxiliar os proprietários de pets para fornecerem uma alimentação regular nos períodos corretos no dia a dia.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/2024-1-NADS1-A/Projeto7/main/imagens/image00004.jpeg" alt="NOME DO JOGO" border="0">
-<a href="http://www.nyphotographic.com/"
->PetConnect</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> 
+<img src="https://raw.githubusercontent.com/2024-1-NADS1-A/Projeto7/main/imagens/image00004.jpeg" alt="NOME DO GRUPO" border="0">
+<a href="https://github.com/2024-1-NADS1-A/Projeto7"
+<a>PetConnect</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> 
 </p>
 
 

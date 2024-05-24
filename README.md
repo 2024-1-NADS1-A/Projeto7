@@ -15,10 +15,9 @@
 ## Descrição: A proposta deste estudo se resume em desenvolver um sistema automatizado de alimentação para animais de estimação, visando auxiliar os proprietários de pets para fornecerem uma alimentação regular nos períodos corretos no dia a dia.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/2024-1-NADS1-A/Projeto7/main/imagens/image00004.jpeg" alt="NOME DO GRUPO" border="0">
-<a href="https://github.com/2024-1-NADS1-A/Projeto7"
-<a>PetConnect</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> 
-</p>
+<img src="https://raw.githubusercontent.com/2024-1-NADS1-A/Projeto7/main/imagens/image00004.jpeg" alt="NOME DO GRUPO" border="0"> Feito Por:
+<a href="https://www.linkedin.com/in/felipeosantosojo/">Felipe Oluwaseun</a>, <a href="https://www.linkedin.com/in/luiz-felipe-galdino-de-carvalho-45765316b/">Luiz Felipe Carvalho</a>, <a href="https://www.linkedin.com/in/murilo-de-alencar-lopes-55532524a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Murilo de Alencar</a>
+
 
 
 O projeto é um alimentador automatizado de ração que utiliza o ESP8266 como plataforma. Através do Telegram, os usuários podem iniciar a aplicação com o comando "start" e, em seguida, utilizar "/liberar" para fornecer ração para o animal de estimação. Isso proporciona aos donos uma maneira conveniente de alimentar seus animais de estimação remotamente, garantindo que recebam comida mesmo quando estão longe de casa.

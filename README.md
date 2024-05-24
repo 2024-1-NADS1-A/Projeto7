@@ -52,6 +52,23 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>src</b>: Pasta que contém o código fonte.
 
+## 🛠 Hardware
+
+•ESP8266
+
+•Motor DC 12v
+
+•Protobord;
+
+•Ponte H
+
+•Jumpers Macho e Fêmea.
+
+## 🛠 Software
+
+•Arduino IDE
+
+•Telegram
 
 
 ## 💻 Configuração para Desenvolvimento
